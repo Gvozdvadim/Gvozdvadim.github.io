@@ -1,0 +1,297 @@
+@media only screen and (max-width : 1400px) {
+
+}
+@media only screen and (max-width : 1200px) {
+    .wruserblock {
+        margin: 13px;
+        width: 265px;
+        height: 340px;
+        border-radius: 10px;
+        display: inline-block;
+        text-align: center;
+        box-shadow: 0.5px 0.866px 3px 0px rgba(0, 0, 0, 0.26);
+    }
+    .fase01 {
+        border-radius: 10px;
+        background-color: rgb( 240, 110, 170 );
+        background-image: url(../img/fase/fase1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 70px;
+        height: 70px;
+        z-index: 210;
+    }
+    .fase02 {
+        border-radius: 10px;
+        background-color: rgb( 240, 110, 170 );
+        background-image: url(../img/fase/fase2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 70px;
+        height: 70px;
+        z-index: 210;
+    }
+    .fase03 {
+        border-radius: 10px;
+        background-color: rgb( 240, 110, 170 );
+        background-image: url(../img/fase/fase3.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 70px;
+        height: 70px;
+        z-index: 210;
+    }
+    .fase04 {
+        border-radius: 10px;
+        background-color: rgb( 240, 110, 170 );
+        background-image: url(../img/fase/fase4.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 70px;
+        height: 70px;
+        z-index: 210;
+    }
+    .wrcontentccc {
+        text-align: center;
+        background: #f0f0f0;
+        width: 100%;
+        margin: 40px 0px 0px 0px;
+    }
+
+
+}
+@media only screen and (max-width : 992px) {
+    .wrli>a {
+        text-decoration: none;
+        font-family: "Roboto-Medium";
+        font-size: 12px;
+        margin:  5px;
+        color: #333;
+    }
+    .wrli>a:hover {
+        text-decoration: none;
+        font-family: "Roboto-Medium";
+        font-size: 12px;
+        margin:  5px;
+        color: #666;
+    }
+    .wrfase {
+        top: 30px;
+        width: 100%;
+        height: 100px;
+        background: #f0f0f0;
+        position: relative;
+    }
+    .shline {
+        max-width: 1170px;
+        text-decoration: none;
+        font-family: "Roboto-Regular";
+        font-size: 16px;
+        margin: 30px 15px;
+        /* margin: 30px auto -30px auto; */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 30px;
+    }
+    div.selectBox {
+        position: relative;
+        display: inline-block;
+        cursor: default;
+        text-align: left;
+        line-height: 30px;
+        clear: both;
+        color: #333;
+        width: 100%;
+        border-bottom: 2px solid #ccc;
+        /* margin: 0px 50px 0px 0px; */
+    }
+    .icon-menu {
+        font-size: 16px;
+        border: none;
+        position: relative;
+        display: inline-block;
+        cursor: default;
+        text-align: left;
+        height: 32px;
+        clear: both;
+        color: #333;
+        width: 100%;
+        border-bottom: 2px solid #ccc;
+        clear: both;
+        margin: 20px 0px;
+    }
+    .easy-basket-filter {
+        width: 100%;
+        top: 25px;
+        position: relative;
+    }
+    .flat{
+        width: 100%;
+    }
+    section.flat button {
+        top: 80px;
+        border: none;
+        border-radius: 5px;
+        background-image: -webkit-linear-gradient( 22deg, #376cf8 0%, #4e92ff 100%);
+        width: 100%;
+        height: 50px;
+        z-index: 186;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 14px;
+        margin: 0px 0px 0px 0px; 
+        position: relative;
+    }
+    .txt01 {
+        text-align: center;
+        width: 100%;
+        top: 12px;
+        /* margin: 0 auto; */
+        /* margin: 0px 0px 0px 50px; */
+        position: relative;
+    }
+    .txefoot>a {
+        font-size: 14px;
+        font-family: "Roboto-Medium";
+        text-decoration: none;
+        padding: 40px 20px 30px 5px;
+        font-weight: 400;
+        cursor: pointer;
+        color: #777777;
+    }
+
+  
+	
+}
+@media only screen and (max-width : 768px) {
+    .wrfase{display: none;}
+
+    .linefase {
+        max-width: 1170px;
+        /* height: 100%; */
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 15px 0px;
+    }
+    .wrlipr {
+        text-decoration: none;
+        font-family: "Roboto-Regular";
+        font-size: 14px;
+        margin: 5px;
+        color: #333;
+    }
+    .imgwr {
+        margin: 5px;
+    }
+    .wrli100 {
+        text-decoration: none;
+        font-family: "Roboto-Regular";
+        font-size: 14px;
+        margin: 5px;
+        color: #366cf7;
+    }
+    .txt {
+        max-width: 1170px;
+        text-decoration: none;
+        font-family: "Roboto-Regular";
+        font-size: 14px;
+        /* margin: 30px; */
+        color: #333;
+        margin: 30px auto;
+        text-align: center;
+    }
+    .wrmenublock {
+        /* position: relative; */
+        /* text-align: center; */
+        display: flex;
+        flex-direction: column;
+        /* justify-content: flex-start; */
+        /* align-items: flex-end; */
+        padding: 0px 10px;
+        max-width: 1170px;
+        height: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .wrm {
+        float: none;
+         display: flex; 
+        flex-direction: column; 
+         justify-content: flex-start; 
+         align-items: flex-end; 
+         max-width: 695px; 
+        height: 600px;
+        position: relative;
+        text-align: center;
+    }
+    .wrfooter01 {
+        max-width: 1170px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .rang1 {
+      
+        width: 100%;
+    }
+    .rang2 {
+
+        width: 100%;
+    }
+    .rang3 {
+
+        width: 100%;
+    }
+    .wrrang {
+        margin: 0px;
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 0px;
+    }
+    .txefoot02 {
+        font-size: 12px;
+        font-family: "Roboto-Medium";
+        text-decoration: none;
+        padding: 5px;
+        color: #777777;
+    }
+    
+
+}
+@media only screen and (max-width : 556px) {
+    .wrm2 {
+       display: none;
+    }
+    .txefoot>a {
+        font-size: 14px;
+        font-family: "Roboto-Medium";
+        text-decoration: none;
+        padding: 10px;
+        font-weight: 400;
+        cursor: pointer;
+        color: #777777;
+    }
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
