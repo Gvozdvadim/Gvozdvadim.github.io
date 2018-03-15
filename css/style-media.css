@@ -761,7 +761,7 @@
     }
  
     .txtoze2 {
-        margin: 100px 10px 10px 10px;
+        margin: 160px 10px 10px 10px;
         font-size: 18px;
         color: #fff;
         font-weight: 600;
@@ -967,6 +967,14 @@
     
 }
 @media screen and (max-width : 556px) {
+    .txtoze2 {
+        margin: 100px 10px 10px 10px;
+        font-size: 18px;
+        color: #fff;
+        font-weight: 600;
+        font-family: "Roboto-Regular";
+        text-transform: uppercase;
+    }
     .wrwrtoppost {
         width: 98%;
         height: 478px;
