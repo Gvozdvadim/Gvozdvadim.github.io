@@ -15,7 +15,7 @@
         right: 30px;
     }
     .wrspanplay{
-        max-width: 290px;
+/*        max-width: 290px;*/
       
 
         text-align: center;
@@ -289,6 +289,9 @@
 
 }
 @media screen and (max-width : 992px) {
+    .deles {
+        display: none;
+    }
     
 } 
 @media  screen and (max-width : 768px) {
@@ -297,6 +300,14 @@
         height: 50px;
         background-color: #051134;
         display: block;
+    }
+    .wrnamb {
+        height: 60px;
+        width: 100%;
+        background: #051134;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
     }
     .wrapper {
         margin: 0 auto;
@@ -731,7 +742,7 @@
         background: #fff;
         border-radius: 10px;
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: inherit;
         margin: 1px;
     }
@@ -741,13 +752,14 @@
     }
     .wrwrtoppost {
         width: 98%;
-        height: 478px;
+        height: 690px;
         background-image: url(../img/tb-hg-b-50.jpg);
         background-size: cover;
         display: flex;
         justify-content: space-between;
         flex-direction: column;
     }
+ 
     .txtoze2 {
         margin: 100px 10px 10px 10px;
         font-size: 18px;
@@ -821,7 +833,7 @@
     }
     
     .deles{
-        display: none;
+        display: flow-root;
     }
     
     
@@ -884,6 +896,47 @@
 
         margin: 10px;
     }
+    .txttoph {
+        z-index: 1212;
+        width: 120px;
+        height: 96px;
+        color: #fff;
+        font-weight: 600;
+        font-family: "Roboto-Regular";
+        font-size: 14px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #ffffff;
+        text-transform: uppercase;
+        margin: 58px 0px 0px 5px;
+    }
+    .getbtn2 {
+        text-align: center;
+        padding: 0 5px;
+        width: 100px;
+        height: 40px;
+        background: #c21a31;
+        border-radius: 20px;
+        text-transform: uppercase;
+        cursor: pointer;
+        font-size: 12px;
+        /* line-height: 62px; */
+        font-weight: 800;
+        border: none;
+        outline: none;
+        color: white;
+        /* padding: 0px 30px; */
+        /* background-color: inherit; */
+        font-family: inherit;
+        margin: 45px 20px;
+        /* display: flex; */
+        /* flex-direction: row; */
+        text-align: center;
+    }
 /*
     .wrcopy 
         width: 100%;
@@ -914,6 +967,30 @@
     
 }
 @media screen and (max-width : 556px) {
+    .wrwrtoppost {
+        width: 98%;
+        height: 478px;
+        background-image: url(../img/tb-hg-b-50.jpg);
+        background-size: cover;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .wrcopy {
+        width: 100%;
+        height: 40px;
+        font-weight: 600;
+        font-family: "Roboto-Regular";
+        text-align: center;
+        background: #040d27;
+        color: #222769;
+        line-height: 40px;
+        font-size: 10px;
+        font-weight: 200;
+    }
+    .deles {
+        display: none;
+    }
     .label {
         display: block;
         width: 180px;
