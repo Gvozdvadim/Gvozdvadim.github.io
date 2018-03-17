@@ -5,8 +5,46 @@
         opacity: 0.5;
          margin:  0px; 
     }
+    .wraplban {
+        /* border: 1px solid red; */
+        height: 445px;
+        width: 583px;
+        float: right;
+        margin-top: 95px;
+        text-align: center;
+    }
+    .wrwrima {
+        left: 10px;
+        margin-left: 0px;
+        /* border: 1px solid red; */
+        width: calc(100% - 850px);
+        height: 447px;
+        float: none;
+        margin-top: 0px;
+        text-align: center;
+        background-image: url(../img/png/at-1@2x22.png);
+        background-size: contain;
+        position: relative;
+        background-repeat: no-repeat;
+    }
 }
 @media  screen and (max-width : 1400px) {
+    
+    .wrwrima {
+        left: 0px;
+         margin-left: 0px; 
+        /* border: 1px solid red; */
+        width: 440px;
+        height: 355px;
+        float: right;
+        margin-top: 95px;
+        text-align: center;
+        background-image: url(../img/png/at-1@2x22.png);
+        background-size: contain;
+        position: relative;
+        background-repeat: no-repeat;
+    }
+ 
     .wrwrplay {
         display: flex;
         margin: 20px 0px;
@@ -158,7 +196,7 @@
     .wraplban {
         /* border: 1px solid red; */
         height: 445px;
-        max-width: 850px;
+       
         float: right;
         margin-top: 95px;
         text-align: center;
@@ -177,6 +215,7 @@
 
 }
 @media screen and (max-width : 1224px) {
+    
     
     .del{
         display: none;
@@ -425,7 +464,7 @@
     .wraplban {
         /* border: 1px solid red; */
         height: auto;
-        max-width: 100%;
+        width: 100%;
         float: right;
         margin-top: 0px;
         text-align: center;
@@ -752,7 +791,7 @@
     }
     .wrwrtoppost {
         width: 98%;
-        height: 690px;
+        height: 600px;
         background-image: url(../img/tb-hg-b-50.jpg);
         background-size: cover;
         display: flex;
@@ -936,6 +975,11 @@
         /* display: flex; */
         /* flex-direction: row; */
         text-align: center;
+    }
+    .dropdown {
+        margin: 0px 10px;
+        float: left;
+        overflow: hidden;
     }
 /*
     .wrcopy 
