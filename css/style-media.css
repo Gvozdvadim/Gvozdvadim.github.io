@@ -1070,7 +1070,7 @@
     }
     .wrlog {
         height: 32px;
-        margin: 16px 0px;
+        
         display: flex;
         flex-direction: row;
         width: auto;
