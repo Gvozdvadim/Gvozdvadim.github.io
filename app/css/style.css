@@ -1446,7 +1446,7 @@ input[type="text"]:focus {
 }
 
 .wrlink2>a {
-    color: #6e74bf;
+    color: #6e74bf;font-size: 14px;
 }
 
 .wrlink2>a:hover {
