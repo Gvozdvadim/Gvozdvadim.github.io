@@ -816,7 +816,7 @@ input[type="text"]:focus {
     /*    border: 1px solid red;*/
     height: 445px;
     background-image: url(../img/png/log.png);
-    width: 445px;
+    width: auto;
     text-align: center;
 }
 
