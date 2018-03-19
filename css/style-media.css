@@ -326,6 +326,7 @@
         justify-content: center;
         /* margin: 0 auto; */
         line-height: 51px;
+        display: flex;
     }
     .navbar a {
         line-height: 50px;

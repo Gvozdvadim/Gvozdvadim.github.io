@@ -1016,6 +1016,7 @@ input[type="text"]:focus {
 }
 
 .wrform {
+    width: 445px;
     display: flex;
     flex-direction: column;
     text-align: center;
