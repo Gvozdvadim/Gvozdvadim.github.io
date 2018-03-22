@@ -48,6 +48,28 @@
         flex-direction: row;
         width: auto;
     }
+    .Rectangle {
+        width: 330px;
+        height: 192px;
+        mix-blend-mode: undefined;
+        background-color: #f5f5f7;
+        display: flex;
+        flex-direction: row;
+        border: 1px solid #f5f5f7;
+        margin: 0px 15px 15px 0px;
+    }
+    .wroption {
+        margin: 0px 10px;
+        display: flex;
+        flex-direction: row;
+        width: 30%;
+        height: 38px;
+        mix-blend-mode: undefined;
+        border-radius: 6px;
+        background-color: #ffffff;
+        justify-content: center;
+        text-align: center;
+    }
 }
 @media  screen and (max-width : 1400px) {
     .wrleng {
