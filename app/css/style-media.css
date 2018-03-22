@@ -51,12 +51,12 @@
     .Rectangle {
         width: 330px;
         height: 192px;
-        mix-blend-mode: undefined;
+       
         background-color: #f5f5f7;
         display: flex;
         flex-direction: row;
         border: 1px solid #f5f5f7;
-        margin: 0px 5px 5px 0px;
+        margin: 0px 10px 10px 0px;
     }
     .wroption {
         margin: 0px 10px;
@@ -64,7 +64,7 @@
         flex-direction: row;
         width: 30%;
         height: 38px;
-        mix-blend-mode: undefined;
+      
         border-radius: 6px;
         background-color: #ffffff;
         justify-content: center;
