@@ -336,7 +336,7 @@
     .wrwewr {
         display: none;}
     .navbar {
-        overflow: hidden;
+        position: relative;
         
         width: auto;
         margin: 16px 0px;
@@ -356,12 +356,12 @@
     }
     .dropdown-content a {
         float: left;
-        font-size: 12px;
+        font-size: 10px;
         color: white;
         text-align: center;
-        padding: 0px 11px;
+        padding: 0px 9px;
         text-decoration: none;
-        line-height: 50px;
+        line-height: 30px;
         font-weight: 400;
         text-transform: uppercase;
         cursor: pointer;
@@ -432,15 +432,15 @@
     }
    
     .navbar a {
-        line-height: 50px;
+/*        line-height: 50px;*/
         float: left;
-        font-size: 12px;
+        font-size: 9px;
         color: white;
         text-align: center;
         padding: 0px 10px;
         text-decoration: none;
-        line-height: 45px;
-        font-weight: 800;
+        line-height: 30px;
+        font-weight: 400;
         text-transform: uppercase;
         cursor: pointer;
     }
