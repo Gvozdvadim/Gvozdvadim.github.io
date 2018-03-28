@@ -18,6 +18,7 @@
         <script src="js/modernizr.custom.17475.js"></script>
         <script type="text/javascript" src="js/jquery-1.6.4.min.js"></script>
         <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+       
     </head>
 
     <body>
@@ -286,9 +287,15 @@
                 </div>
             </div>
             <div class="wrlcontentpro2">
-                
+           
+
                 <div class="wranalitic30">
                     <div class="linename"><h3 class="nametxt">1 x 2</h3></div>
+                    
+                    
+                    
+                    
+                    
                 </div>
                 <div class="wranalitic30">
                     <div class="linename"><h3 class="nametxt">1x   12   x2</h3></div>
@@ -328,22 +335,79 @@
                         <div class="wrtwocof">
                             <div class="wrcof1">
                                 <div class="txecof1">over</div>
-                                <div class="bodypers1" style="
+                                <div class="bodypers11" style="
                                                               width:  32%;
                                                               ">
                                     <div class="steptxt">32%</div>
                                 </div>
                                 
                             </div>
+                            <div class="wrcof1">
+                                <div class="txecof2">over</div>
+                                <div class="bodypers22" style="
+                                                              width:  66%;
+                                                              ">
+                                    <div class="steptxt">66%</div>
+                                </div>
+
+                            </div>
                         </div>
                         
                         
                         </div>
-                        <div class="wrap-wer1">
+                        
+                            <div class="wrap-wer1">
+                                <div class="cof"><h2 class="coftxt">1.2</h2></div>
+                                <div class="wrtwocof">
+                                    <div class="wrcof1">
+                                        <div class="txecof1">over</div>
+                                        <div class="bodypers11" style="
+                                                                       width:  80%;
+                                                                       ">
+                                            <div class="steptxt">80%</div>
+                                        </div>
+
+                                    </div>
+                                    <div class="wrcof1">
+                                        <div class="txecof2">over</div>
+                                        <div class="bodypers22" style="
+                                                                       width:  66%;
+                                                                       ">
+                                            <div class="steptxt">66%</div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
 
 
                         </div>
                         <div class="wrap-wer1">
+                            
+                                <div class="cof"><h2 class="coftxt">1.2</h2></div>
+                                <div class="wrtwocof">
+                                    <div class="wrcof1">
+                                        <div class="txecof1">over</div>
+                                        <div class="bodypers11" style="
+                                                                       width:  100%;
+                                                                       ">
+                                            <div class="steptxt">100%</div>
+                                        </div>
+
+                                    </div>
+                                    <div class="wrcof1">
+                                        <div class="txecof2">over</div>
+                                        <div class="bodypers22" style="
+                                                                       width:  56%;
+                                                                       ">
+                                            <div class="steptxt">56%</div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
 
 
                         </div>
@@ -351,6 +415,56 @@
                     
                     
                 </div>
+
+              
+
+                <div id="container" style="min-width: 310px; height: 400px; max-width: 600px; margin: 0 auto"></div>
+                <script>
+                    $(function() {
+                        var data = [{
+                            name: '22%',
+                            y: 22,
+                            color: '#c21a31'
+                        }, {
+                            name: '44%',
+                            y: 44,
+                            color: '#222769'
+                        }, {
+                            name: '36%',
+                            y: 36,
+                            color: '#6e74bf'
+//                        }, {
+//                            name: 'Mumbai',
+//                            y: 30,
+//                            color: 'green'
+                        }];
+                        var start = -90;
+                        var series = [];
+                        for (var i = 0; i < data.length; i++) {
+                            var end = start + 360 * data[i].y / 100;
+                            data[i].y = 100;
+
+                            series.push({
+                                type: 'pie',
+                                size: 100 + 50 * i,
+                                innerSize: 50,
+                                startAngle: start,
+                                endAngle: end,
+                                data: [data[i]]
+                            });
+                            start = end;
+                        };
+                        $('#container').highcharts({
+                            series: series
+                        });
+                    });
+
+                </script>
+                <style>
+                    .highcharts-data-label-connector .highcharts-color-0{
+                        display: none;
+                    }
+                </style>
 
                
                
@@ -923,10 +1037,10 @@
                         <ul>
                             <li><a href="">Betting Strategies</a></li>
                             <li><a href="">Stories</a></li>
-                            <li><a href="">Top off</a></li>
+                            <li><a href="">  Top off</a></li>
                             <li><a href="">Nostalgie</a></li>
                             <li><a href="">Knowledge Base</a></li>
-                            <li><a href="">Casino</a></li>
+                            <li><a href=""> Casino</a></li>
 
 
                         </ul>
@@ -991,6 +1105,7 @@
 <script src="js/common.js"></script>
 <script type="text/javascript" src="js/jquery-1.6.4.min.js"></script>
 <script type="text/javascript" src="js/jquery-ui.min.js"></script>
-
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
 
 </html>
