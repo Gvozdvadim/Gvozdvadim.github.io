@@ -2546,7 +2546,7 @@ section {
     animation-name: r-p;
     width: 100px;
     height: 30px;
-    border: 1px solid #222769;
+/*    border: 1px solid #222769;*/
     border-radius: 20px;
     background: #051134;
 }
