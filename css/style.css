@@ -196,6 +196,12 @@ ul li {
     height: 250px;
     background-size: cover;
 }
+.imgw5 {
+    background-image: url(../img/foo.JPG);
+    width: 242px;
+    height: 250px;
+    background-size: cover;
+}
 .name>.ww {
     text-align: center;
     padding: 0 5px;
