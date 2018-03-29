@@ -3334,5 +3334,8 @@ span.selectOption:hover {
 }
 
 
-
+.werrec>a>img{
+    background-size: cover;
+    width: 100%;
+}
 
