@@ -202,18 +202,6 @@ ul li {
     height: 250px;
     background-size: cover;
 }
-.imgw6 {
-    background-image: url(../img/Nostalgie.jpg);
-    width: 242px;
-    height: 250px;
-    background-size: cover;
-}
-.imgw7 {
-    background-image: url(../img/Nostalgie_open.jpg);
-    width: 242px;
-    height: 250px;
-    background-size: cover;
-}
 .name>.ww {
     text-align: center;
     padding: 0 5px;
@@ -253,4 +241,5 @@ ul li {
 .wrwork{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
