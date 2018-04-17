@@ -226,6 +226,18 @@ ul li {
     height: 250px;
     background-size: cover;
 }
+.imgw10{
+    background-image: url(../img/Football-tips.jpg);
+    width: 242px;
+    height: 250px;
+    background-size: cover;
+}
+.imgw11{
+    background-image: url(../img/Football-tips_Open.jpg);
+    width: 242px;
+    height: 250px;
+    background-size: cover;
+}
 
 .name>.ww {
     text-align: center;
