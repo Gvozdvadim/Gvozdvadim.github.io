@@ -4168,7 +4168,18 @@ span.selectOption:hover {
     display: flex;
     justify-content: space-around;
 }
-
+.wrlink3>a {
+    color: #ffffff;
+    font-size: 14px;
+    border: 1px solid #6e74bf;
+    margin: 10px auto;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: #6e74bf;
+    text-decoration: none;
+    text-transform: uppercase;
+    justify-content: center;
+}
 
 
 
