@@ -1925,6 +1925,100 @@
         text-align: center;
         padding: 5px 15px;
     }
+/*    acum */
+    .topacum {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .acumdel{
+        display: none;
+    }
+    .acumpage {
+        top: -150px;
+        position: relative;
+    }
+    #tabs {
+        clear: both;
+        perspective: 600px;
+        margin: 0px;
+        margin: 0px 0%;
+        width: 100%;
+    }
+    .leftacum {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 100%;
+    }
+    .wriconpl2 {
+        background: #e4e4e4;
+        width: 39px;
+        height: 100%;
+        padding: 30px 0px;
+        margin: 0px 0px;
+        border-radius: 5px 0px 0px 5px;
+    }
+    
+    .Roundedacum {
+        /* width: 481px; */
+        height: 90px;
+        mix-blend-mode: undefined;
+        border-radius: 6px;
+        background-color: #ffffff;
+        background-color: var(--white);
+        border: solid 1px #e4e4e4;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0px 0px; 
+        margin: 5px 5px;
+    }
+    .newname>h1 {
+        width: 100%;
+        font-family: "Roboto-Regular";
+        font-size: 28px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #6e74bf;
+        text-transform: uppercase;
+    }
+    .namewwer {
+        text-align: center;
+        margin: 30px 30px;
+    }
+    .wcoo{
+        display: flex;
+        justify-content: center;
+        
+    }
+    .tabs > div {
+        width: 100%;
+        border: none;
+        padding: 0;
+        opacity: 1;
+        position: relative;
+        transform: none;
+        /* margin-bottom: 60px; */
+    }
+    .tabbed > label { display: none }
+    .wrtxtpointl {
+        background: #6e74bf;
+        width: 60px;
+        height: 85px;
+        text-align: center;
+    }
+    .werawer {
+        width: 100%;
+        background-color: #ffffff;
+    }
+    .newwer{
+        margin-top: 52px;
+    }
+    
 }
 @media screen and (max-width : 556px) {
     .dropdown-content a:hover {
