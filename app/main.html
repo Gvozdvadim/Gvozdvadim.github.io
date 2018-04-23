@@ -405,6 +405,7 @@
                                 <div class="wriconpl">
                                     <img src="./img/png/lion.png" alt="">
                                 </div>
+                                
                                 <div class="wrspanplay">
                                     <span class="time">22:30</span>
                                     <span class="playtoplay">Swansea  - Liverpool</span>
@@ -1093,6 +1094,7 @@
 
     <script>
         function myFunction() {
+            
             document.getElementById("myDropdown").classList.toggle("show");
             document.getElementById("myDropdownUp").classList.toggle("borderK");
             document.getElementById("myDropdownUp").getElementsByTagName("DIV")[0].classList.toggle("closeX");
@@ -1140,7 +1142,14 @@
 
         });
     </script>
-
+    
+    <script>
+        $('show').scroll(function(){
+            $('body').scrollTop(0);
+        });
+    </script>
+    
+   
 
 
     <footer>
